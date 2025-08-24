@@ -141,48 +141,27 @@ Response:
 ]
 
 
+3.	Release Note**
+We’re excited to announce the release of v1.5.0 of the Book Review API! This update brings important improvements in performance, bug fixes, and developer experience. It prepares the platform for future enhancements with a cleaner and more maintainable codebase.
+Highlights
+•	Core logic updated to improve stability and streamline workflows
+•	Critical bug resolved in book detail rendering
+•	Minor UI and user experience polish
+•	Major internal refactoring of API routes for better maintainability
+•	Project finalized for v1.5.0 release with documentation and cleanup
 
-# 📦 Release Notes - BOOK-REVIEW-API
+**Changelog in Markdown**
+[v1.5.0] - 2025-08-20
+Added
+- Updated core functionality to improve reliability and performance
+Fixed
+- Resolved issue causing incorrect data rendering in book detail page
+Changed
+- Applied UI/UX improvements for enhanced user experience
+- Cleaned and restructured codebase to remove redundancy
 
-
-## v1.0.0 - Initial Release (2025-08-24)
-
-### 🚀 Features
-- Implemented **user authentication** (Register & Login with JWT).
-- Added **User Profile API** (view & update own profile).
-- Built **Book Management API**:
-  - Create, Read, Update, Delete (CRUD) books.
-  - Public access for browsing books.
-- Added **Review System**:
-  - Users can add, update, delete reviews.
-  - Retrieve reviews per book.
-- 🔐 Role-based access:
-  - Admins can manage books.
-  - Users can only manage their own reviews.
-- 📖 Integrated **Swagger API Documentation** (`/api-docs`).
-
-### 🛠️ Improvements
-- Standardized **error handling** with JSON responses.
-- Added middleware for **request validation** & **authentication**.
-- Implemented project structure for **scalability**:
-  - `routes/`, `controllers/`, `models/`.
-
-### 🧪 Testing
-- Added sample Postman collection for API testing.
-- Basic Jest test setup for authentication and book endpoints.
-
-
-## Upcoming (Planned)
-- 📊 Ratings aggregation (average rating per book).
-- 🖼️ Book cover image upload support.
-- 📚 Pagination & filtering for books.
-- 🔎 Full-text search for book titles/authors.
-
-
-
-
-**Testing**
-
-Run API tests with:
-
-npm test
+Refactored
+- Refactored API route handlers for clarity and maintainability
+Documentation
+- Updated README with full API usage details and setup instructions
+- Final project cleanup in preparation for production release
