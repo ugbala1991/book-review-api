@@ -141,6 +141,46 @@ Response:
 ]
 
 
+
+# 📦 Release Notes - BOOK-REVIEW-API
+
+
+## v1.0.0 - Initial Release (2025-08-24)
+
+### 🚀 Features
+- Implemented **user authentication** (Register & Login with JWT).
+- Added **User Profile API** (view & update own profile).
+- Built **Book Management API**:
+  - Create, Read, Update, Delete (CRUD) books.
+  - Public access for browsing books.
+- Added **Review System**:
+  - Users can add, update, delete reviews.
+  - Retrieve reviews per book.
+- 🔐 Role-based access:
+  - Admins can manage books.
+  - Users can only manage their own reviews.
+- 📖 Integrated **Swagger API Documentation** (`/api-docs`).
+
+### 🛠️ Improvements
+- Standardized **error handling** with JSON responses.
+- Added middleware for **request validation** & **authentication**.
+- Implemented project structure for **scalability**:
+  - `routes/`, `controllers/`, `models/`.
+
+### 🧪 Testing
+- Added sample Postman collection for API testing.
+- Basic Jest test setup for authentication and book endpoints.
+
+
+## Upcoming (Planned)
+- 📊 Ratings aggregation (average rating per book).
+- 🖼️ Book cover image upload support.
+- 📚 Pagination & filtering for books.
+- 🔎 Full-text search for book titles/authors.
+
+
+
+
 **Testing**
 
 Run API tests with:
